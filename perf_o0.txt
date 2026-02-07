@@ -1,0 +1,130 @@
+           sort name    fill method       # of ele    elapsed (avg ms)
+  insertion_sort_arr         sorted           1000           0.0085784
+  insertion_sort_vec         sorted           1000            0.018435
+  insertion_sort_opt         sorted           1000           0.0041554
+           std::sort         sorted           1000            0.268036
+
+  insertion_sort_arr        reverse           1000             2.60342
+  insertion_sort_vec        reverse           1000             3.89228
+  insertion_sort_opt        reverse           1000           0.0530116
+           std::sort        reverse           1000           0.0597714
+
+  insertion_sort_arr         random           1000            0.399262
+  insertion_sort_vec         random           1000            0.922759
+  insertion_sort_opt         random           1000           0.0807826
+           std::sort         random           1000            0.109463
+
+  insertion_sort_arr     duplicates           1000            0.303248
+  insertion_sort_vec     duplicates           1000            0.767378
+  insertion_sort_opt     duplicates           1000           0.0544338
+           std::sort     duplicates           1000           0.0773672
+
+
+  insertion_sort_arr         sorted           5000           0.0089434
+  insertion_sort_vec         sorted           5000           0.0182592
+  insertion_sort_opt         sorted           5000           0.0044044
+           std::sort         sorted           5000            0.400832
+
+  insertion_sort_arr        reverse           5000             16.6753
+  insertion_sort_vec        reverse           5000             44.6122
+  insertion_sort_opt        reverse           5000            0.583316
+           std::sort        reverse           5000            0.330114
+
+  insertion_sort_arr         random           5000             8.59109
+  insertion_sort_vec         random           5000             22.4008
+  insertion_sort_opt         random           5000            0.625306
+           std::sort         random           5000            0.658584
+
+  insertion_sort_arr     duplicates           5000             7.11427
+  insertion_sort_vec     duplicates           5000             18.7966
+  insertion_sort_opt     duplicates           5000             0.44158
+           std::sort     duplicates           5000            0.482361
+
+
+  insertion_sort_arr         sorted          10000           0.0180254
+  insertion_sort_vec         sorted          10000           0.0372828
+  insertion_sort_opt         sorted          10000           0.0086246
+           std::sort         sorted          10000            0.859462
+
+  insertion_sort_arr        reverse          10000             66.7285
+  insertion_sort_vec        reverse          10000             181.636
+  insertion_sort_opt        reverse          10000             1.98609
+           std::sort        reverse          10000            0.712938
+
+  insertion_sort_arr         random          10000             33.9766
+  insertion_sort_vec         random          10000             90.6916
+  insertion_sort_opt         random          10000             1.70823
+           std::sort         random          10000             1.42136
+
+  insertion_sort_arr     duplicates          10000             28.3276
+  insertion_sort_vec     duplicates          10000             76.3239
+  insertion_sort_opt     duplicates          10000              1.2166
+           std::sort     duplicates          10000             1.05642
+
+
+  insertion_sort_arr         sorted          20000           0.0340092
+  insertion_sort_vec         sorted          20000            0.076535
+  insertion_sort_opt         sorted          20000           0.0179192
+           std::sort         sorted          20000             1.87174
+
+  insertion_sort_arr        reverse          20000             271.394
+  insertion_sort_vec        reverse          20000             730.084
+  insertion_sort_opt        reverse          20000             8.91102
+           std::sort        reverse          20000             1.51284
+
+  insertion_sort_arr         random          20000             135.244
+  insertion_sort_vec         random          20000             364.869
+  insertion_sort_opt         random          20000             5.52772
+           std::sort         random          20000             3.11514
+
+  insertion_sort_arr     duplicates          20000             114.844
+  insertion_sort_vec     duplicates          20000             304.346
+  insertion_sort_opt     duplicates          20000             4.03742
+           std::sort     duplicates          20000             2.31136
+
+
+  insertion_sort_arr         sorted          50000            0.088926
+  insertion_sort_vec         sorted          50000            0.212539
+  insertion_sort_opt         sorted          50000            0.055316
+           std::sort         sorted          50000             4.94063
+
+  insertion_sort_arr        reverse          50000             1711.77
+  insertion_sort_vec        reverse          50000             4564.35
+  insertion_sort_opt        reverse          50000             58.8586
+           std::sort        reverse          50000             3.93549
+
+  insertion_sort_arr         random          50000             853.454
+  insertion_sort_vec         random          50000             2277.73
+  insertion_sort_opt         random          50000             32.3811
+           std::sort         random          50000             8.84144
+
+  insertion_sort_arr     duplicates          50000             715.082
+  insertion_sort_vec     duplicates          50000                1901
+  insertion_sort_opt     duplicates          50000             25.2667
+           std::sort     duplicates          50000             6.41038
+
+
+
+ Performance counter stats for './sort_o0':
+
+         73,738.09 msec task-clock                       #    0.999 CPUs utilized
+               488      context-switches                 #    6.618 /sec
+                58      cpu-migrations                   #    0.787 /sec
+               234      page-faults                      #    3.173 /sec
+   334,396,045,134      cycles                           #    4.535 GHz                         (81.81%)
+ 1,329,746,509,693      instructions                     #    3.98  insn per cycle              (90.90%)
+   175,120,124,003      branches                         #    2.375 G/sec                       (90.91%)
+        14,694,607      branch-misses                    #    0.01% of all branches             (81.81%)
+                        TopdownL1                 #      0.0 %  tma_backend_bound
+                                                  #     83.5 %  tma_bad_speculation
+                                                  #     -0.0 %  tma_frontend_bound
+                                                  #     16.5 %  tma_retiring             (90.90%)
+   539,951,477,332      L1-dcache-loads                  #    7.323 G/sec                       (90.91%)
+     2,090,768,516      L1-dcache-load-misses            #    0.39% of all L1-dcache accesses   (90.91%)
+         5,930,152      LLC-loads                        #   80.422 K/sec                       (90.91%)
+           238,193      LLC-load-misses                  #    4.02% of all LL-cache accesses    (90.91%)
+
+      73.801595976 seconds time elapsed
+
+      73.733363000 seconds user
+       0.006000000 seconds sys

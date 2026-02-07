@@ -1,0 +1,129 @@
+           sort name    fill method       # of ele    elapsed (avg ms)
+  insertion_sort_arr         sorted           1000           0.0023756
+  insertion_sort_vec         sorted           1000           0.0028616
+  insertion_sort_opt         sorted           1000           0.0010432
+           std::sort         sorted           1000           0.0165172
+
+  insertion_sort_arr        reverse           1000            0.507808
+  insertion_sort_vec        reverse           1000            0.649804
+  insertion_sort_opt        reverse           1000           0.0816872
+           std::sort        reverse           1000           0.0117176
+
+  insertion_sort_arr         random           1000            0.270308
+  insertion_sort_vec         random           1000            0.332167
+  insertion_sort_opt         random           1000            0.192149
+           std::sort         random           1000            0.110751
+
+  insertion_sort_arr     duplicates           1000            0.237371
+  insertion_sort_vec     duplicates           1000            0.286105
+  insertion_sort_opt     duplicates           1000            0.125191
+           std::sort     duplicates           1000            0.048688
+
+
+  insertion_sort_arr         sorted           5000           0.0124156
+  insertion_sort_vec         sorted           5000            0.012606
+  insertion_sort_opt         sorted           5000           0.0043214
+           std::sort         sorted           5000            0.110855
+
+  insertion_sort_arr        reverse           5000             5.97777
+  insertion_sort_vec        reverse           5000             3.76425
+  insertion_sort_opt        reverse           5000             0.40965
+           std::sort        reverse           5000           0.0170482
+
+  insertion_sort_arr         random           5000             1.38582
+  insertion_sort_vec         random           5000             1.81129
+  insertion_sort_opt         random           5000            0.401518
+           std::sort         random           5000            0.155462
+
+  insertion_sort_arr     duplicates           5000             1.17076
+  insertion_sort_vec     duplicates           5000              1.5189
+  insertion_sort_opt     duplicates           5000            0.266045
+           std::sort     duplicates           5000           0.0587582
+
+
+  insertion_sort_arr         sorted          10000           0.0052528
+  insertion_sort_vec         sorted          10000           0.0064252
+  insertion_sort_opt         sorted          10000            0.002167
+           std::sort         sorted          10000           0.0496742
+
+  insertion_sort_arr        reverse          10000             11.0122
+  insertion_sort_vec        reverse          10000             14.3305
+  insertion_sort_opt        reverse          10000             1.60495
+           std::sort        reverse          10000           0.0362174
+
+  insertion_sort_arr         random          10000              5.4927
+  insertion_sort_vec         random          10000             7.16413
+  insertion_sort_opt         random          10000             1.22048
+           std::sort         random          10000            0.331483
+
+  insertion_sort_arr     duplicates          10000             4.56677
+  insertion_sort_vec     duplicates          10000             6.02723
+  insertion_sort_opt     duplicates          10000            0.850976
+           std::sort     duplicates          10000              0.1184
+
+
+  insertion_sort_arr         sorted          20000           0.0126424
+  insertion_sort_vec         sorted          20000            0.013104
+  insertion_sort_opt         sorted          20000           0.0045474
+           std::sort         sorted          20000            0.105838
+
+  insertion_sort_arr        reverse          20000             44.1321
+  insertion_sort_vec        reverse          20000             58.7026
+  insertion_sort_opt        reverse          20000             7.80845
+           std::sort        reverse          20000           0.0752124
+
+  insertion_sort_arr         random          20000             21.7705
+  insertion_sort_vec         random          20000             29.1374
+  insertion_sort_opt         random          20000             4.34156
+           std::sort         random          20000            0.711706
+
+  insertion_sort_arr     duplicates          20000             18.2298
+  insertion_sort_vec     duplicates          20000              24.354
+  insertion_sort_opt     duplicates          20000             3.13384
+           std::sort     duplicates          20000            0.238413
+
+
+  insertion_sort_arr         sorted          50000           0.0261488
+  insertion_sort_vec         sorted          50000           0.0334638
+  insertion_sort_opt         sorted          50000              0.0111
+           std::sort         sorted          50000            0.271233
+
+  insertion_sort_arr        reverse          50000              282.54
+  insertion_sort_vec        reverse          50000             367.336
+  insertion_sort_opt        reverse          50000             54.6357
+           std::sort        reverse          50000            0.197938
+
+  insertion_sort_arr         random          50000             140.721
+  insertion_sort_vec         random          50000             181.861
+  insertion_sort_opt         random          50000             28.0771
+           std::sort         random          50000             1.94131
+
+  insertion_sort_arr     duplicates          50000             117.685
+  insertion_sort_vec     duplicates          50000             152.123
+  insertion_sort_opt     duplicates          50000             22.0501
+           std::sort     duplicates          50000            0.608673
+
+
+        Command being timed: "./sort_o3"
+        User time (seconds): 8.18
+        System time (seconds): 0.00
+        Percent of CPU this job got: 99%
+        Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.24
+        Average shared text size (kbytes): 0
+        Average unshared data size (kbytes): 0
+        Average stack size (kbytes): 0
+        Average total size (kbytes): 0
+        Maximum resident set size (kbytes): 3940
+        Average resident set size (kbytes): 0
+        Major (requiring I/O) page faults: 0
+        Minor (reclaiming a frame) page faults: 246
+        Voluntary context switches: 114
+        Involuntary context switches: 68
+        Swaps: 0
+        File system inputs: 0
+        File system outputs: 0
+        Socket messages sent: 0
+        Socket messages received: 0
+        Signals delivered: 0
+        Page size (bytes): 4096
+        Exit status: 0

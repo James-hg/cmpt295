@@ -1,0 +1,7 @@
+==2838979== Cachegrind, a high-precision tracing profiler
+==2838979== Copyright (C) 2002-2017, and GNU GPL'd, by Nicholas Nethercote et al.
+==2838979== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==2838979== Command: ./a.out
+==2838979== 
+==2838979== 
+==2838979== I refs:        223,433,439,839
